@@ -1,0 +1,35 @@
+name: BreathingApp
+options:
+  bundleIdPrefix: com.xujie
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "14.0"
+  generateEmptyDirectories: true
+  groupSortPosition: top
+
+settings:
+  base:
+    PRODUCT_NAME: 便携微冥想
+    DEVELOPMENT_TEAM: QZ4K2F8H93
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_VERSION: "5.7"
+    TARGETED_DEVICE_FAMILY: "1"
+    IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+    ENABLE_PREVIEWS: YES
+    ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    INFOPLIST_FILE: BreathingApp/BreathingApp/Info.plist
+
+targets:
+  BreathingApp:
+    type: application
+    platform: iOS
+    sources:
+      - BreathingApp
+    resources:
+      - BreathingApp/BreathingApp/Resources/Music
+    settings:
+      base:
+        INFOPLIST_FILE: BreathingApp/BreathingApp/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        PRODUCT_BUNDLE_IDENTIFIER: com.xujie.breathingapp
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks"

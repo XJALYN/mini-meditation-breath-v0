@@ -1,0 +1,40 @@
+项目目录: /Users/xujie/Documents/code/2026-app/便携微冥想呼吸器-v0
+仓库名: 便携微冥想呼吸器
+描述: AI辅助开发的便携微冥想呼吸器-v0项目
+grep: invalid option -- P
+usage: grep [-abcdDEFGHhIiJLlMmnOopqRSsUVvwXxZz] [-A num] [-B num] [-C[num]]
+	[-e pattern] [-f file] [--binary-files=value] [--color=when]
+	[--context[=num]] [--directories=action] [--label] [--line-buffered]
+	[--null] [pattern] [file ...]
+[1;33m=== GitHub 仓库创建工具 ===[0m
+grep: invalid option -- P
+usage: grep [-abcdDEFGHhIiJLlMmnOopqRSsUVvwXxZz] [-A num] [-B num] [-C[num]]
+	[-e pattern] [-f file] [--binary-files=value] [--color=when]
+	[--context[=num]] [--directories=action] [--label] [--line-buffered]
+	[--null] [pattern] [file ...]
+仓库名: 
+描述: AI辅助开发的便携微冥想呼吸器-v0项目
+可见性: private
+
+正在配置 Git 认证...
+[0;32m✓ Git 认证配置完成[0m
+正在初始化 Git 仓库...
+提示： 使用 'master' 作为初始分支的名称。这个默认分支名称可能会更改。要在新仓库中
+提示： 配置使用初始分支名，并消除这条警告，请执行：
+提示：
+提示： 	git config --global init.defaultBranch <名称>
+提示：
+提示： 除了 'master' 之外，通常选定的名字有 'main'、'trunk' 和 'development'。
+提示： 可以通过以下命令重命名刚创建的分支：
+提示：
+提示： 	git branch -m <name>
+已初始化空的 Git 仓库于 /Users/xujie/Documents/code/2026-app/便携微冥想呼吸器-v0/.git/
+[0;32m✓ Git 仓库初始化完成[0m
+正在检查项目大小...
+正在检查敏感文件...
+[0;31m警告: 发现敏感文件:[0m
+./.venv/lib/python3.13/site-packages/pip/_vendor/certifi/cacert.pem
+
+
+[0;31m✗ 仓库创建失败: 便携微冥想呼吸器-v0[0m
+==========================================

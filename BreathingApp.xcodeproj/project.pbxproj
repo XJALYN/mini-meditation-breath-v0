@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		327004C5CB6981BF72CCA843 /* BreathingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF6F2B207C417DF7041D666 /* BreathingAnimationView.swift */; };
+		42A2379A83396315CEF82BD4 /* BreathingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB139DD88AFFF10D4B9A2941 /* BreathingAppApp.swift */; };
+		4470F93B4A32DED7EE3268AC /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9845C078732BD41B2ADBFAB5 /* HapticFeedback.swift */; };
+		50247B4E60BF551601DF0A8C /* PatternSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36128797F151E7C9713016C4 /* PatternSelectionView.swift */; };
+		88DC9E008E30A66F8A4C6083 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C89633C19FECB9A588AC2 /* StoreManager.swift */; };
+		9C5F5E7A1D2C3B4A5E6F7081 /* Music in Resources */ = {isa = PBXBuildFile; fileRef = 9C5F5E7A1D2C3B4A5E6F7080 /* Music */; };
+		9F0A1B2C3D4E5F60718293A4 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A1B2C3D4E5F60718293A3 /* Localization.swift */; };
+		A56C2D12A26897E5A4510E00 /* MusicSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2051DE8AF48133C1E7BCF17A /* MusicSelectionView.swift */; };
+		CB3856466587C8686433C38B /* BreathingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C1F834BD0AA13E6CC15765 /* BreathingView.swift */; };
+		CC6C97FFDEEB99C4084489C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F26F502EBACFF5BB25A3EA5 /* Assets.xcassets */; };
+		F0EE88A5CC5C496A83ECA520 /* MusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259C8480EC21AB7ADFCA410 /* MusicManager.swift */; };
+		F1AD0682F83009941F6BCFE3 /* BreathingPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327AA65C30240A532963EE6A /* BreathingPattern.swift */; };
+		F562A32B2F8A79E400D4AA86 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F562A32A2F8A79E400D4AA86 /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		189C89633C19FECB9A588AC2 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		2051DE8AF48133C1E7BCF17A /* MusicSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSelectionView.swift; sourceTree = "<group>"; };
+		327AA65C30240A532963EE6A /* BreathingPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingPattern.swift; sourceTree = "<group>"; };
+		34276F458CF237FCC2B1620E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		34D7678D4B2BBBC6326D4A73 /* BreathingApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BreathingApp.entitlements; sourceTree = "<group>"; };
+		36128797F151E7C9713016C4 /* PatternSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternSelectionView.swift; sourceTree = "<group>"; };
+		43DE8DBBF3A046B3BD3DC5F6 /* BreathingApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; name = BreathingApp.app; path = "便携微冥想.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C1F834BD0AA13E6CC15765 /* BreathingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingView.swift; sourceTree = "<group>"; };
+		77559D023C726CB35E6A483E /* BreathingApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BreathingApp.entitlements; sourceTree = "<group>"; };
+		8F26F502EBACFF5BB25A3EA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9845C078732BD41B2ADBFAB5 /* HapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
+		9C5F5E7A1D2C3B4A5E6F7080 /* Music */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Music; sourceTree = "<group>"; };
+		9F0A1B2C3D4E5F60718293A3 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		B259C8480EC21AB7ADFCA410 /* MusicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicManager.swift; sourceTree = "<group>"; };
+		CB139DD88AFFF10D4B9A2941 /* BreathingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingAppApp.swift; sourceTree = "<group>"; };
+		DDF6F2B207C417DF7041D666 /* BreathingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingAnimationView.swift; sourceTree = "<group>"; };
+		F562A32A2F8A79E400D4AA86 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F562A32C2F8A79E400D4AA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F562A32B2F8A79E400D4AA86 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F266A933B1957A64B9C424 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DDF6F2B207C417DF7041D666 /* BreathingAnimationView.swift */,
+				59C1F834BD0AA13E6CC15765 /* BreathingView.swift */,
+				2051DE8AF48133C1E7BCF17A /* MusicSelectionView.swift */,
+				36128797F151E7C9713016C4 /* PatternSelectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		08455D955113458C5F7C8C2F /* BreathingApp */ = {
+			isa = PBXGroup;
+			children = (
+				464DC3E6C3F75C0FB5D86F4C /* Models */,
+				214E95508549C9CD5674AC12 /* Resources */,
+				86CB05C17721C698977587F5 /* Services */,
+				04F266A933B1957A64B9C424 /* Views */,
+				77559D023C726CB35E6A483E /* BreathingApp.entitlements */,
+				CB139DD88AFFF10D4B9A2941 /* BreathingAppApp.swift */,
+				34276F458CF237FCC2B1620E /* Info.plist */,
+			);
+			path = BreathingApp;
+			sourceTree = "<group>";
+		};
+		214E95508549C9CD5674AC12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F26F502EBACFF5BB25A3EA5 /* Assets.xcassets */,
+				9C5F5E7A1D2C3B4A5E6F7080 /* Music */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		464DC3E6C3F75C0FB5D86F4C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				327AA65C30240A532963EE6A /* BreathingPattern.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A536D21EDD58675C2ABA90E = {
+			isa = PBXGroup;
+			children = (
+				E8997CFD5BDD522AF63F092D /* BreathingApp */,
+				F562A3292F8A79E400D4AA86 /* Frameworks */,
+				86CBE38C961A4A3A731F760E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86CB05C17721C698977587F5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9845C078732BD41B2ADBFAB5 /* HapticFeedback.swift */,
+				9F0A1B2C3D4E5F60718293A3 /* Localization.swift */,
+				B259C8480EC21AB7ADFCA410 /* MusicManager.swift */,
+				189C89633C19FECB9A588AC2 /* StoreManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		86CBE38C961A4A3A731F760E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43DE8DBBF3A046B3BD3DC5F6 /* BreathingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8997CFD5BDD522AF63F092D /* BreathingApp */ = {
+			isa = PBXGroup;
+			children = (
+				08455D955113458C5F7C8C2F /* BreathingApp */,
+				34D7678D4B2BBBC6326D4A73 /* BreathingApp.entitlements */,
+			);
+			path = BreathingApp;
+			sourceTree = "<group>";
+		};
+		F562A3292F8A79E400D4AA86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F562A32A2F8A79E400D4AA86 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C342AB446B8AC50130280EA2 /* BreathingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19078C4465F22F1FA2174AA3 /* Build configuration list for PBXNativeTarget "BreathingApp" */;
+			buildPhases = (
+				3BE149F39B497BAB6E792409 /* Sources */,
+				CABEF02E069A336471CCAA55 /* Resources */,
+				F562A32C2F8A79E400D4AA86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreathingApp;
+			packageProductDependencies = (
+			);
+			productName = BreathingApp;
+			productReference = 43DE8DBBF3A046B3BD3DC5F6 /* BreathingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C3BF93F0821D8DA85DFAACF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C342AB446B8AC50130280EA2 = {
+						DevelopmentTeam = QZ4K2F8H93;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 663DA15CBDE7BCBB7AD4D46B /* Build configuration list for PBXProject "BreathingApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5A536D21EDD58675C2ABA90E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 86CBE38C961A4A3A731F760E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C342AB446B8AC50130280EA2 /* BreathingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CABEF02E069A336471CCAA55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6C97FFDEEB99C4084489C9 /* Assets.xcassets in Resources */,
+				9C5F5E7A1D2C3B4A5E6F7081 /* Music in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BE149F39B497BAB6E792409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327004C5CB6981BF72CCA843 /* BreathingAnimationView.swift in Sources */,
+				42A2379A83396315CEF82BD4 /* BreathingAppApp.swift in Sources */,
+				F1AD0682F83009941F6BCFE3 /* BreathingPattern.swift in Sources */,
+				CB3856466587C8686433C38B /* BreathingView.swift in Sources */,
+				4470F93B4A32DED7EE3268AC /* HapticFeedback.swift in Sources */,
+				9F0A1B2C3D4E5F60718293A4 /* Localization.swift in Sources */,
+				F0EE88A5CC5C496A83ECA520 /* MusicManager.swift in Sources */,
+				A56C2D12A26897E5A4510E00 /* MusicSelectionView.swift in Sources */,
+				50247B4E60BF551601DF0A8C /* PatternSelectionView.swift in Sources */,
+				88DC9E008E30A66F8A4C6083 /* StoreManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4017B48274547FB5515243D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QZ4K2F8H93;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = BreathingApp/BreathingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "便携微冥想";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		97B4F2D3E72EF259AC82E710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BreathingApp/BreathingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xujie.breathingapp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF90ED528C8C9E64D8E309AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BreathingApp/BreathingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xujie.breathingapp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECCAB472B9E208658C844118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QZ4K2F8H93;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = BreathingApp/BreathingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "便携微冥想";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19078C4465F22F1FA2174AA3 /* Build configuration list for PBXNativeTarget "BreathingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B4F2D3E72EF259AC82E710 /* Debug */,
+				CF90ED528C8C9E64D8E309AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		663DA15CBDE7BCBB7AD4D46B /* Build configuration list for PBXProject "BreathingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCAB472B9E208658C844118 /* Debug */,
+				4017B48274547FB5515243D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C3BF93F0821D8DA85DFAACF /* Project object */;
+}

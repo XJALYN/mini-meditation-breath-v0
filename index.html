@@ -66,9 +66,7 @@
     .hero-icon {
       width: 100px; height: 100px;
       border-radius: 24px;
-      background: var(--gradient);
-      display: flex; align-items: center; justify-content: center;
-      font-size: 48px;
+      object-fit: cover;
       margin-bottom: 32px;
       box-shadow: 0 0 60px rgba(107,115,255,0.4);
       animation: float 4s ease-in-out infinite;
@@ -280,6 +278,36 @@
       font-size: 14px; font-weight: 500; color: var(--text-dim);
     }
 
+    /* Screenshots */
+    .screenshots-scroll {
+      display: flex;
+      gap: 20px;
+      overflow-x: auto;
+      padding: 8px 0 24px;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .screenshots-scroll::-webkit-scrollbar { display: none; }
+    .screenshot-item {
+      flex: 0 0 auto;
+      width: 260px;
+      scroll-snap-align: start;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+      border: 1px solid var(--border);
+      transition: transform 0.3s ease;
+    }
+    .screenshot-item:hover {
+      transform: translateY(-4px);
+    }
+    .screenshot-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
     /* Philosophy */
     .philosophy-grid {
       display: grid;
@@ -383,7 +411,7 @@
     <div class="breathe-circle"></div>
     <div class="breathe-circle"></div>
     <div class="container" style="position:relative;z-index:1;">
-      <div class="hero-icon">🧘</div>
+      <img class="hero-icon" src="BreathingApp/BreathingApp/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png" alt="App Icon" />
       <h1>便携微冥想</h1>
       <p class="subtitle">1 分钟极速焦虑疏导</p>
       <p class="tagline-en">One-minute calm reset</p>
@@ -395,7 +423,7 @@
         <span class="badge">开源</span>
       </div>
       <div class="hero-cta">
-        <a href="https://github.com" class="btn btn-primary" target="_blank">
+        <a href="https://github.com/XJALYN/mini-meditation-breath-v0" class="btn btn-primary" target="_blank">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
           GitHub
         </a>
@@ -442,6 +470,30 @@
           <div class="feature-icon">🔒</div>
           <h3>隐私优先</h3>
           <p>完全离线运行，不收集任何数据，不需要任何权限，你的呼吸节奏只属于你</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">应用截图</span>
+        <h2>界面预览</h2>
+      </div>
+      <div class="screenshots-scroll">
+        <div class="screenshot-item">
+          <img src="截图/Simulator Screenshot - iPhone 17 Pro Max - 2026-07-11 at 09.09.44.png" alt="模式选择" loading="lazy" />
+        </div>
+        <div class="screenshot-item">
+          <img src="截图/Simulator Screenshot - iPhone 17 Pro Max - 2026-07-11 at 09.09.55.png" alt="呼吸练习" loading="lazy" />
+        </div>
+        <div class="screenshot-item">
+          <img src="截图/Simulator Screenshot - iPhone 17 Pro Max - 2026-07-11 at 09.09.59.png" alt="主题切换" loading="lazy" />
+        </div>
+        <div class="screenshot-item">
+          <img src="截图/Simulator Screenshot - iPhone 17 Pro Max - 2026-07-11 at 09.10.16.png" alt="音乐选择" loading="lazy" />
         </div>
       </div>
     </div>
@@ -666,7 +718,7 @@
       <h2>准备好开始呼吸了吗？</h2>
       <p>开源免费，2 种基础模式 + 6 元解锁全部 10 种模式</p>
       <div class="hero-cta">
-        <a href="https://github.com" class="btn btn-primary" target="_blank">
+        <a href="https://github.com/XJALYN/mini-meditation-breath-v0" class="btn btn-primary" target="_blank">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
           GitHub 查看源码
         </a>
@@ -677,9 +729,12 @@
   <!-- Footer -->
   <footer>
     <div class="container">
+      <img src="微信图片_20260711090123_451_111.jpg" alt="作者" style="width:200px;object-fit:cover;margin-bottom:16px;border:2px solid rgba(255,255,255,0.15);">
+    
+      <p style="color:var(--text-dim);font-size:14px;margin-bottom:20px;">独立开发者，热爱 SwiftUI 和产品设计</p>
       <p>便携微冥想 · Pocket Micro Meditation</p>
       <p style="margin-top:4px;">
-        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="https://github.com/XJALYN/mini-meditation-breath-v0" target="_blank">GitHub</a>
         &nbsp;·&nbsp;
         MIT License
       </p>

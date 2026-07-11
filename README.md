@@ -15,6 +15,10 @@
   <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License" />
 </p>
 
+<p align="center">
+  <a href="https://xjalyn.github.io/mini-meditation-breath-v0/">🌐 在线主页</a>
+</p>
+
 ---
 
 ## 简介
@@ -174,6 +178,22 @@ BreathingApp/
 ## 许可证
 
 本项目采用 [MIT](LICENSE) 许可证。你可以自由使用、修改和分发本项目代码。
+
+---
+
+## 作者
+
+<p align="center">
+  <img src="微信图片_20260711090123_451_111.jpg" alt="作者头像" width="80"  />
+</p>
+
+<p align="center">
+  <strong></strong>
+</p>
+
+<p align="center">
+  独立开发者，热爱 SwiftUI 和产品设计。
+</p>
 
 ---
 

@@ -60,6 +60,15 @@
 - 触感震动（Haptic Feedback）引导，静音环境同样可用
 - 中英文双语自适应
 
+## 应用截图
+
+<p align="center">
+  <img src="截图/Simulator Screenshot - iPhone 17 Pro Max - 2026-07-11 at 09.09.44.png" alt="模式选择" width="200" />
+  <img src="截图/Simulator Screenshot - iPhone 17 Pro Max - 2026-07-11 at 09.09.55.png" alt="呼吸练习" width="200" />
+  <img src="截图/Simulator Screenshot - iPhone 17 Pro Max - 2026-07-11 at 09.09.59.png" alt="主题切换" width="200" />
+  <img src="截图/Simulator Screenshot - iPhone 17 Pro Max - 2026-07-11 at 09.10.16.png" alt="音乐选择" width="200" />
+</p>
+
 ---
 
 ## 技术栈
